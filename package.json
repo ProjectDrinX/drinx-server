@@ -1,0 +1,36 @@
+{
+  "name": "drinx-server",
+  "version": "0.0.0",
+  "description": "DrinX server",
+  "main": "./src/main.ts",
+  "scripts": {
+    "build": "yarn test && echo Compiling... && rm -fr build/ && tsc && echo Compilation done ! && echo.",
+    "test": "ts-node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectDrinX/drinx-server.git"
+  },
+  "engines": {
+    "node": "14.* || >=16.*"
+  },
+  "keywords": [
+    "drinx",
+    "server"
+  ],
+  "author": "Mathieu Colmon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "beamio": "https://github.com/ProjectDrinX/BeamIO"
+  }
+}
