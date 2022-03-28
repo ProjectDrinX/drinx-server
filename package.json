@@ -31,6 +31,6 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "beamio": "https://github.com/ProjectDrinX/BeamIO"
+    "beamio": "github:ProjectDrinX/BeamIO"
   }
 }
