@@ -9,4 +9,8 @@ export function isUID(s: string): boolean {
   return s.length === 32 && /^[A-Z0-9]{32}$/i.test(s);
 }
 
+export function isUsername(s: string): boolean {
+  return s.length >= 3 && s.length <= 16 && /^[a-zA-Z0-9_]{3,16}$/i.test(s);
+}
+
 export default undefined;
