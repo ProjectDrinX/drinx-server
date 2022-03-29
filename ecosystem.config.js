@@ -19,7 +19,7 @@ module.exports = {
       repo: 'git@github.com:ProjectDrinX/drinx-server.git',
       path: `${process.env.DEPLOY_SERVER_PATH}/DrinX-server`,
       'post-deploy':
-        'yarn && yarn build && pm2 reload ecosystem.config.js --env production && pm2 save && git checkout yarn.lock',
+        'yarn install --frozen-lockfile && yarn build && pm2 reload ecosystem.config.js --env production && pm2 save && git checkout yarn.lock',
     },
   },
 };
