@@ -4,7 +4,7 @@
   "description": "DrinX server",
   "main": "./src/main.ts",
   "scripts": {
-    "build": "yarn test && echo Compiling... && rm -fr build/ && tsc && echo Compilation done ! && echo",
+    "build": "echo Compiling... && rm -fr dist/ && tsc && echo Compilation done ! && echo",
     "test": "ts-node test"
   },
   "repository": {

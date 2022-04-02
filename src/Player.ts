@@ -1,4 +1,4 @@
-import type BeamEndpoint from 'beamio/src/BeamEndpoint';
+import type BeamEndpoint from 'beamio/dist/BeamEndpoint';
 import type Party from './Party';
 
 interface PlayerConstructorProps {

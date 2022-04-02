@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'drinx-server',
-      script: 'node build/main.js',
+      script: 'node dist/main.js',
       instances: 1,
       autorestart: true,
       watch: '.',
